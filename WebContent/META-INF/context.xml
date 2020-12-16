@@ -1,0 +1,13 @@
+<Context reloadable="true">
+
+	<Resource
+		name="jdbc/mysql"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/goods"
+		connectionProperties="autoReconnect=true;verifyServerCertificate=false;useSSL=false;requireSSL=false"
+		username="student"
+		password="studentpass"
+	/>
+</Context>

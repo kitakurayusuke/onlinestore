@@ -1,0 +1,760 @@
+@charset "UTF-8";
+
+/*　ユーザーサイド　バックカラー　*/
+.Body01 {
+	background-color: #fff8cf;
+}
+/*　管理サイド　バックカラー　*/
+.Body02 {
+	background-color: #97cdf3;
+}
+/*　ユーザーサイド　メイン　*/
+.main01 {
+	margin-top: 140px;
+    min-height: 70vh;
+	position: relative;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	}
+/*　管理サイド　メイン　*/
+.main02 {
+	margin-top: 50px;
+    min-height: 83vh;
+	position: relative;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	}
+
+/*　ユーザーサイド　ヘッダー　*/
+.Header01 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 98%;
+	height: 100px;
+	padding: 15px;
+	display: frex;
+	align-items: center;
+	z-index: 10;
+
+	background-image:url("logo3.png");
+	background-position:50px 10px;
+	background-repeat: no-repeat;
+}
+
+.Header01 p {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 0.5;
+}
+.Header01 h1 {
+	text-align: center;
+	color: #c83e36;
+	line-height: 1.7;
+	margin: 0; padding: 0;
+	font-family: "HG丸ｺﾞｼｯｸM-PRO";
+}
+.Header01 h4 {
+	text-align: center;
+	color: #c83e36;
+	line-height: 0.5;
+	margin: 0; padding: 0;
+	font-family: "HG丸ｺﾞｼｯｸM-PRO";
+}
+/*　ユーザーサイド　ヘッダー　*/
+.Header02 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 98%;
+	height: 20px;
+	padding: 15px;
+	display: frex;
+	align-items: center;
+	background-color: #97cdf3;
+	z-index: 10;
+}
+
+.Header02 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5;
+	color: #000080;
+	margin: 0; padding: 0;
+	font-family: "HG丸ｺﾞｼｯｸM-PRO";
+}
+
+
+/*　ユーザーサイド　フッター　*/
+.Footer01 {
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(#fff8cf, #003300);
+	z-index: 10;
+	position: absolute;
+}
+.Footer01 p {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5;
+}
+
+/*　管理サイド　フッター　*/
+.Footer02 {
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(#97cdf3, #000080);
+	z-index: 10;
+	position: absolute;
+}
+.Footer02 p {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5;
+}
+/*テーブルを右寄せ*/
+.AA001{
+	margin-left : auto ;
+	margin-right : 0 ;
+	float: right;
+	text-align: right;
+	height: 100%
+	}
+
+/* 押し込みボタン */
+.AA002 {
+  display: inline-block;
+  max-width: 230px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+/* セレクトボックスの大きさ */
+.AA003{
+	width: 200;
+	height: 2em;
+}
+
+/* テキストボックスの大きさ */
+.AA004{
+	width: 200;
+	height: 2em;
+}
+
+/* 普通のボタンの大きさ */
+.AA005{
+	width: 200;
+	height: 2em;
+}
+
+/* テーブルセル内文を字中央に配置*/
+.AA006{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	border-collapse: separate;
+    border-spacing: 20px
+}
+/* テーブルセル下寄せ*/
+.AA007{
+	text-align: right;
+}
+/* エラーメッセージの色指定 */
+.AA008{
+	color: red;
+}
+/* セル下詰め */
+.AA009{
+	margin-left : auto ;
+	margin-right : 0 ;
+}
+/* 高さの設定 */
+.AA010{
+	height: 2em;
+}
+/* テキスト中央寄せ */
+.AA011{
+	text-align: center;
+}
+/* 位置右下固定 */
+.AA012{
+	position: absolute;
+	bottom: 0;
+  	right: 0;
+}
+/* セル横幅  40文字分*/
+.AA013{
+	width: 40em;
+}
+/* セル横幅 10文字分 */
+.AA014{
+	width: 10em;
+}
+/* セル横幅 5文字分 */
+.AA015{
+	width: 5em;
+}
+/* テーブルを右に寄せるだけ */
+.AA016{
+	margin-left : auto ;
+	margin-right : 0 ;
+}
+/* セル横幅 */
+.AA017{
+	width: 8em;
+}
+.AA018{
+	width: 10em;
+}
+
+/* 商品検索結果 */
+.AA500{
+	font-weight: 500;
+	text-align: center;
+}
+
+.AA501{
+	background: #ffd700;
+	text-align: right;
+	text-decoration: none;
+	color: #ff4500;
+	font-size: 20px;
+
+}
+
+.AA502{
+	text-align: right;
+}
+
+
+/* 見出しのマージン　*/
+.AA503{
+	margin: 0 0 1em;
+}
+
+/*回り込むテキストが画像にくっつかないようマージンをつける */
+.AA504{
+	width: 320px;
+	margin-right:1em;
+	margin-bottom: 1em;
+
+}
+
+.AA505{
+	margin-left : auto ;
+	margin-right : 0 ;
+	float: right;
+	text-align: right;
+	margin: 0 0 1em;
+}
+
+
+/* 画像の上に文字を配置　*/
+
+
+.AA506 {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+.AA506 p {
+  position: absolute;/*絶対配置*/
+  color: black;/*文字は黒に*/
+  top: 0;
+  left: 0;
+  }
+
+
+/*ボタン配置　右下　*/
+	.AA507 {
+    border:1px solid #cccccc;
+  height: 200px;
+    position: relative;
+}
+
+.sampleBox img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+/*ボタン配置　右下　訂正 AA002配合メソッド*/
+.AA508 {
+	position:fixed;
+    right: 0;
+    bottom: 40px;
+
+    display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+
+
+/*ボタン配置　左　訂正*/
+.AA509{
+	    text-align: left;
+	    float: left;
+	}
+}
+
+
+
+/*ボタン配置　右　訂正*/
+.AA510{
+	    text-align: right;
+	}
+}
+
+/*ボタン大きさ　訂正*/
+.AA511{
+	    width:100px;
+	    height:50px
+	}
+
+
+/*ボタン大きさ　訂正 適用可能*/
+.AA512 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 10px 30px;
+}
+
+.AA513{
+
+	display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+
+
+
+position: relative;
+  bottom: 60px;
+  left: 500px;
+}
+
+.AA514{
+		display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+width: 250px;
+	height: 5em;
+
+
+
+position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+
+.AA515{
+		display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+	 width: 250px;
+	height: 5em;
+
+
+position: absolute;
+  bottom: 240px;
+  left: 500px;
+}
+
+
+
+.AA516{
+
+position: absolute;
+  bottom: 240px;
+  left: 500px;
+}
+
+}
+
+/*会計画面　文字を中央に配置*/
+.AA517{
+	margin: 10px auto;
+  width:200px;
+  background: orange;
+}
+
+
+/*商品詳細画面　商品説明配置*/
+.AA518{
+    float: left;
+    font-size: 98%;
+}
+
+/*文字　みんなの口コミ*/
+.AA519{
+
+	position: absolute;
+  bottom: 70px;
+  left: 50px
+
+}
+
+/*文字　レビュー内容*/
+.AA520{
+	position: absolute;
+  bottom: 30px;
+  left: 50px
+}
+
+
+
+/*文字　写真をクリックすると拡大します*/
+.AA521{
+clear: left;
+}
+
+/*文字　写真をクリックすると拡大します*/
+.AA522{
+clear: left;
+width: 300px;
+height: 10em;
+}
+
+
+/*セレクトボックス　位置変更*/
+.AA523{
+
+	width: 300px;
+	height: 10em;
+
+	position: absolute;
+  bottom: 180px;
+  left: 580px
+  }
+
+
+
+
+/*文字の大きさ　変更*/
+.AA523{
+font-size: 4;
+}
+
+
+/* テーブル左寄せ並べ */
+.AA019{
+	width: 330px;
+}
+.AA020{
+	text-align: center;
+}
+.AA021
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.AA022{
+	margin-left : auto ;
+	margin-right : 0 ;
+}
+
+.AA022{
+	margin-left : auto ;
+	margin-right : 0 ;
+}
+.AA023{
+	width: 20em;
+}
+.AA024{
+	width:10em;
+}
+.AA025{
+	margin-left : auto ;
+	margin-right : auto ;
+}
+.AA026{
+	width: 100%;
+	text-align: center;
+}
+.AA027{
+	height: 5em;
+}
+.AA028{
+	text-align: center;
+}
+
+
+
+
+
+
+.ka001 {
+	position:relative;
+}
+.ka002 {
+	left: 5%;
+}
+.ka003 {
+	font-size: 30px;
+}
+.ka004 {
+	font-weight: bold;
+}
+.ka005 {
+	left: 10%;
+}
+.ka006 {
+	font-size: 24px;
+}
+.ka007 {
+	color: red;
+}
+.ka008 {
+	left: 70%;
+}
+.ka009 {
+	color: #00008B;
+}
+table.ka010 {
+	border-collapse: collapse;
+	margin-left: 10%;
+	width: 600px;
+}
+table.ka010 th{
+	padding: 5px;
+	text-align: left;
+	width: 25%;
+}
+table.ka010 td{
+	padding: 5px;
+	width: 75%;
+}
+.ka011 {
+	border: 1px solid #000066;
+}
+.ka012 {
+	background: royalblue;
+}
+.ka013 {
+	text-align: right;
+}
+.ka014 {
+	height: 40px;
+}
+.ka015 {
+	background: #ffffff;
+}
+.ka016 {
+	width: 22em;
+}
+.ka017 {
+	width: 27em;
+}
+table.ka018 {
+	border-collapse: collapse;
+	margin-left: 10%;
+	width: 950px;
+}
+table.ka018 th {
+	padding: 5px;
+	border-bottom: 1px solid #000066;
+}
+table.ka018 td {
+	padding: 5px;
+	height: 3em;
+	border-bottom: 1px dotted #000066;
+}
+.ka019 {
+	width: 8%
+}
+.ka020 {
+	width: 20%
+}
+.ka021 {
+	font-size: 11px;
+}
+.ka022 {
+	text-align: left;
+}
+table.ka023 {
+	margin-left: 10%;
+	width: 700px;
+}
+.ka024 {
+	text-align: center;
+}
+table.ka025 {
+	margin-left: 10%;
+	width: 950px;
+}
+.ka026 {
+	width: 25%
+}
+.ka027 {
+	vertical-align: top;
+}
+.ka028 {
+	border-bottom: 1px solid #000066;
+}
+.ka029 {
+	border-bottom: 1px dotted #000066;
+}
+.ka030 {
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	transition: 0.3s;
+}
+.ka030:link {
+	color: #000080;
+}
+.ka030:visited {
+	color: #000080;
+}
+.ka030:hover {
+	color: #ff4500;
+	transition: color 0.3s
+}
+.ka030::after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: '';
+	width: 0;
+	height: 2px;
+	background-color: #8B0000;
+	transition: 0.3s;
+	transform: translateX(-50%);
+}
+.ka030:hover::after {
+	width: 100%;
+}
+
+.ka031 {
+	color: #fff;
+	background-color: #4169E1;
+	border-bottom: 5px solid #4169E1;
+}
+.ka032 {
+	font-size: 13px;
+}
+table.ka033 {
+	border-collapse: collapse;
+	margin-left: 10%;
+	width: 900px;
+}
+table.ka033 th{
+	padding: 5px;
+	text-align: left;
+	width: 25%;
+}
+table.ka033 td{
+	padding: 5px;
+	width: 75%;
+}
+table.ka034 {
+	border-collapse: collapse;
+	margin-left: 10%;
+	width: 900px;
+}
+table.ka034 th{
+	padding: 5px;
+	text-align: left;
+	width: 25%;
+}
+table.ka034 td{
+	padding: 5px;
+/*	width: 75%;*/
+}
+
+
+.ka035 {
+	left: 5%;
+}
+table.ka036 {
+	margin-left: 5%;
+	width: 600px;
+}
+table.ka036 th{
+	padding: 5px;
+	text-align: left;
+	width: 30%;
+}
+table.ka036 td{
+	padding: 5px;
+	text-align: left;
+	width: 15%;
+}
+table.ka037 {
+	margin-left: 5%;
+	width: 950px;
+}
+table.ka037 th {
+/*	padding: 5px;*/
+}
+table.ka037 td {
+/*	padding: 5px;*/
+}
+.ka038 {
+	width: 7%
+}
+.ka039 {
+	font-family: ＭＳ Ｐゴシック;
+}
+.ka040 {
+	width: 10%;
+}
+.ka041 {
+	position: absolute;
+}
+
